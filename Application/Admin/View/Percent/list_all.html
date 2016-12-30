@@ -1,0 +1,211 @@
+<include file="./Application/Admin/View/Public/header.html" />
+    <div class="content">
+        
+        <div class="header">
+            
+            <h1 class="page-title">Users</h1>
+        </div>
+        
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a> <span class="divider">/</span></li>
+            <li class="active">Users</li>
+        </ul>
+    
+        <div class="container-fluid">
+            <div class="row-fluid">
+                    <table  class="table">
+                   		 <thead>
+                             <tr>
+                                <th>姓名</th>
+                                <th>范围下限</th>
+                                <th>范围上限</th>
+                                <th>时间</th> 
+                                <th></th>
+                            </tr>
+                         </thead>
+                         <tbody>
+                         	<form class="form-inline" method="post" action="__MODULE__/Percent/list_part">
+                            <tr>
+                                <td>
+                                    <input  name="student_name" placeholder="姓名" id="appendedInputButton" type="text">
+                                </td>
+                                <td>
+                                     <select class="" name="task_percent_down" >
+                                        <option value="10">10%</option>
+                                        <option value="20">20%</option>
+                                        <option value="30">30%</option>
+                                        <option value="40">40%</option>
+                                        <option value="50">50%</option>
+                                        <option value="60">60%</option>
+                                        <option value="70">70%</option>
+                                        <option value="80">80%</option>
+                                        <option value="90">90%</option>
+                                        <option value="100">100%</option>
+                                    </select>
+                                </td>  
+                                <td>
+                                    <select class="" name="task_percent_up" >
+                                     	<option value="100">100%</option>
+                                        <option value="90">90%</option>
+                                        <option value="80">80%</option>
+                                        <option value="70">70%</option>
+                                        <option value="60">60%</option>
+                                        <option value="50">50%</option>
+                                        <option value="40">40%</option>
+                                        <option value="30">30%</option>
+                                        <option value="20">20%</option>
+                                        <option value="10">10%</option>    
+                                    </select>
+                                </td> 
+                                <td>
+                                      <input type="text" value="0000-00-00" value="" class="laydate-icon" id="start"  name="time_time1">
+                                </td>  
+                                <td >
+                                 	<button class="btn"  type="submit"><i class="icon-search"></i> Go</button>
+                                </td>
+                                  
+                             </tr>
+                            
+                         </tbody>
+                   </table>
+                   
+                   </form>
+                <div class="well">
+                    <table class="table">
+                        <thead>
+                            <tr>
+                                <th>学生姓名</th>
+                                <th>任务类型</th>
+                                <th>完成情况</th>
+                                <th>任务内容</th>
+                                <th>开始时间</th>
+                                <th>计划结束时间</th>
+                                <th>项目说明</th>
+                                <th>是否同意</th>
+                                <th>得分</th>
+                                <th style="width:36px;"></th>
+                            </tr>
+                        </thead>
+                      <tbody>
+                      		<foreach name="list" item="vo" > 
+                            	<tr>
+                                	<neq name="vo.student_name" value="$var">
+                                    	<td ><{$vo.student_name}></td>
+                                    <else/>
+                                    	<td> </td>
+                                    </neq>
+                                    <assign name="var" value="$vo.student_name" />                                   
+                                    <td><{$vo.type_name}></td>
+                                    <td><{$vo.percent}></td>
+                                    <td><{$vo.content}></td>
+                                    <td><{$vo.date_time1}></td>
+                                    <td><{$vo.time_plan}></td>
+                                    <td><{$vo.instruction}></td>
+                                    <td><{$vo.status}></td>
+                                    <td><{$vo.grade}></td>
+                                    
+                                    <td>
+                                    	<a href="__MODULE__/Percent/schedule/task_id/<{$vo.task_id}>">详情</a>
+                                    </td>
+                                   <!-- <td>
+                                    	<a href="__MODULE__/Percent/message/student_id/<{$vo.student_id}>">消息</a>
+                                    </tr>-->
+                                </tr>
+ 	                         </foreach>
+                        
+                        
+                      </tbody>
+                    </table>
+                </div>
+                <div class="pagination">
+                    <ul>
+                        <li><a href="#">Prev</a></li>
+                        <li><a href="#">1</a></li>
+                        <li><a href="#">2</a></li>
+                        <li><a href="#">3</a></li>
+                        <li><a href="#">4</a></li>
+                        <li><a href="#">Next</a></li>
+                    </ul>
+                </div>
+    
+                <div class="modal small hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h3 id="myModalLabel">Delete Confirmation</h3>
+                    </div>
+                    <div class="modal-body">
+                        <p class="error-text"><i class="icon-warning-sign modal-icon"></i>Are you sure you want to delete the user?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                        <a class="btn btn-danger" id="delete"  >Delete</a>
+                    </div>
+                </div>
+    
+    
+                    
+                <footer>
+                    <hr>
+                    
+                    <p class="pull-right">Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+                    
+    
+                    <p>&copy; 2012 <a href="#" target="_blank">Portnine</a></p>
+                </footer>
+                    
+            </div>
+        </div>
+    </div>
+    
+
+	
+    <script src="__ROOT__/public/lib/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript">
+        $("[rel=tooltip]").tooltip();
+        $(function() {
+            $('.demo-cancel-click').click(function(){return false;});
+        });
+        
+        function model(id)
+        {
+        		$("#delete").attr('href','__MODULE__/Task/delete_task/task_id/'+id);
+        }
+    </script>
+    <script type="text/javascript">
+	!function(){
+		laydate.skin('molv');//切换皮肤，请查看skins下面皮肤库
+		laydate({elem: '#demo'});//绑定元素
+	}();
+	
+	//日期范围限制
+	var start = {
+		elem: '#start',
+		format: 'YYYY-MM-DD',
+		min: laydate.now(), //设定最小日期为当前日期
+		max: '2099-06-16', //最大日期
+		istime: true,
+		istoday: false,
+		choose: function(datas){
+			 end.min = datas; //开始日选好后，重置结束日的最小日期
+			 end.start = datas //将结束日的初始值设定为开始日
+		}
+	};
+	
+	var end = {
+		elem: '#end',
+		format: 'YYYY-MM-DD',
+		min: laydate.now(),
+		max: '2099-06-16',
+		istime: true,
+		istoday: false,
+		choose: function(datas){
+			start.max = datas; //结束日选好后，充值开始日的最大日期
+		}
+	};
+	laydate(start);
+	laydate(end);
+	
+	</script>
+  </body>
+</html>
+

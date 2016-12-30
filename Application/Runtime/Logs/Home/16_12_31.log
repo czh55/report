@@ -1,0 +1,565 @@
+[ 2016-12-31T15:03:25+08:00 ] 127.0.0.1 /report/index.php/Home/Task/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000805s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000943s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000999s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0001s ]
+SQL: select task.*,type.name  from task,type where task.type_id=type.id and task.id in ( select task_id from form where student_id=1) order by date_time1 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.009088s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.009129s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000421s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000815s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000882s ]
+
+[ 2016-12-31T15:03:25+08:00 ] 127.0.0.1 /report/index.php/Home/assets/ico/favicon.ico
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+
+[ 2016-12-31T15:03:26+08:00 ] 127.0.0.1 /report/index.php/Home/Task/add_task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000354s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0001s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000037s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006950s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006987s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000582s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000616s ]
+
+[ 2016-12-31T15:03:50+08:00 ] 127.0.0.1 /report/index.php/Home/Task/save_task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000266s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0003s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0001s ]
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0005s ]
+ERR: 1364:Field 'percent' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `task` (`type_id`,`content`,`instruction`,`time_plan`,`student_id`) VALUES ('5','ppt3','ppt3说明','2016-12-31','1')
+ERR: 1364:Field 'percent' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `task` (`type_id`,`content`,`instruction`,`time_plan`,`student_id`) VALUES ('5','ppt3','ppt3说明','2016-12-31','1')
+
+[ 2016-12-31T15:09:33+08:00 ] 127.0.0.1 /report/index.php/Home/Form/own
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000517s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000652s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000696s ]
+SQL: select task.*,type.name  from task,type where task.type_id=type.id and task.id in (select task_id from form where task_id in (select task_id from form group by task_id having count(task_id)=1) and student_id=1) order by task.id desc [ RunTime:0.0011s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000105s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010051s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010088s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000371s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001012s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001051s ]
+
+[ 2016-12-31T15:09:34+08:00 ] 127.0.0.1 /report/index.php/Home/Task/add_task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000238s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000311s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000086s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006732s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006770s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000638s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000670s ]
+
+[ 2016-12-31T15:09:50+08:00 ] 127.0.0.1 /report/index.php/Home/Task/save_task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000309s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0003s ]
+ERR: 1364:Field 'percent' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `task` (`type_id`,`content`,`instruction`,`time_plan`,`student_id`) VALUES ('1','pptppt','ppt说明','2016-12-31','1')
+ERR: 1364:Field 'percent' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `task` (`type_id`,`content`,`instruction`,`time_plan`,`student_id`) VALUES ('1','pptppt','ppt说明','2016-12-31','1')
+
+[ 2016-12-31T15:14:39+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000420s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<=2016 and date_format(date_time2,'%Y')>=2016 and task.id in ( select task_id from form where student_id=1) [ RunTime:0.0033s ]
+SQL: select task.*,type.name as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<=2016 and date_format(date_time2,'%Y')>=2016 and task.id in ( select task_id from form where student_id=1)  [ RunTime:0.0005s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<=2016 and date_format(date_time2,'%Y')>=2016 and task.id in ( select task_id from form where student_id=1) [ RunTime:0.0002s ]
+NOTIC: [8] Undefined offset: 0 /private/var/www/report/Application/Home/Controller/ExcelController.class.php 第 104 行.
+NOTIC: [8] Undefined offset: 0 /private/var/www/report/Application/Home/Controller/ExcelController.class.php 第 104 行.
+NOTIC: [8] Undefined offset: 0 /private/var/www/report/Application/Home/Controller/ExcelController.class.php 第 104 行.
+NOTIC: [8] Undefined offset: 0 /private/var/www/report/Application/Home/Controller/ExcelController.class.php 第 104 行.
+NOTIC: [8] Undefined offset: 0 /private/var/www/report/Application/Home/Controller/ExcelController.class.php 第 104 行.
+NOTIC: [8] Undefined offset: 0 /private/var/www/report/Application/Home/Controller/ExcelController.class.php 第 104 行.
+SQL: select task.*,type.name as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<=2016 and date_format(date_time2,'%Y')>=2016 and task.id in ( select task_id from form where student_id=1) order by task.id [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /private/var/www/report/Application/Home/Controller/ExcelController.class.php 第 479 行.
+NOTIC: [2] Invalid argument supplied for foreach() /private/var/www/report/Application/Home/Controller/ExcelController.class.php 第 146 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')=2016 and task_id in (select id from task where  date_format(date_time1,'%Y')<=2016 and date_format(date_time2,'%Y')>=2016 and task.id in ( select task_id from form where student_id=1)) order by task_id,commit_time [ RunTime:0.0005s ]
+NOTIC: [8] Undefined offset: 0 /private/var/www/report/Application/Home/Controller/ExcelController.class.php 第 357 行.
+NOTIC: [2] Invalid argument supplied for foreach() /private/var/www/report/Application/Home/Controller/ExcelController.class.php 第 176 行.
+NOTIC: [8] Undefined variable: last_task_id /private/var/www/report/Application/Home/Controller/ExcelController.class.php 第 179 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001146s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001225s ]
+
+[ 2016-12-31T15:15:57+08:00 ] 127.0.0.1 /report/index.php/Home/Task/save_task
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000513s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000501s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000534s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: SHOW COLUMNS FROM `task` [ RunTime:0.0004s ]
+ERR: 1364:Field 'percent' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `task` (`type_id`,`content`,`instruction`,`time_plan`,`student_id`) VALUES ('1','ppt3','ppt3说明','2016-12-31','1')
+ERR: 1364:Field 'percent' doesn't have a default value
+ [ SQL语句 ] : INSERT INTO `task` (`type_id`,`content`,`instruction`,`time_plan`,`student_id`) VALUES ('1','ppt3','ppt3说明','2016-12-31','1')
+
+[ 2016-12-31T15:39:52+08:00 ] 127.0.0.1 /report/index.php/Home/Form/form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000841s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001070s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+SQL: select task.*,type.name  from task,type where task.type_id=type.id and task.id in (select task_id from form where task_id in (select task_id from form group by task_id having count(task_id)>1) and student_id=1) order by task.id desc [ RunTime:0.0016s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000087s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000148s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011820s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011873s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000566s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001138s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001230s ]
+
+[ 2016-12-31T15:39:53+08:00 ] 127.0.0.1 /report/index.php/Home/Form/own
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000339s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000441s ]
+SQL: select task.*,type.name  from task,type where task.type_id=type.id and task.id in (select task_id from form where task_id in (select task_id from form group by task_id having count(task_id)=1) and student_id=1) order by task.id desc [ RunTime:0.0012s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000102s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008488s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000129s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000161s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000754s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000854s ]
+
+[ 2016-12-31T15:41:30+08:00 ] 127.0.0.1 /report/index.php/Home/verify/finish
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000996s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001061s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001131s ]
+SQL: select task.*,type.name  from task,type where task.type_id=type.id and task.id in ( select task_id from form where student_id=1) and task.percent=100 and (task.status=3 or task.status=1) order by date_time1 [ RunTime:0.0018s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000119s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.011843s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.011907s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001254s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001326s ]
+
+[ 2016-12-31T15:41:31+08:00 ] 127.0.0.1 /report/index.php/Home/verify/verifying
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000022s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: select task.*,type.name  from task,type where task.type_id=type.id and task.id in ( select task_id from form where student_id=1) and task.percent=100 and task.status=2 order by date_time1 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000069s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000124s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007283s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007335s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000177s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000858s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000964s ]
+
+[ 2016-12-31T15:41:31+08:00 ] 127.0.0.1 /report/index.php/Home/verify/percent100
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000226s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: select task.*,type.name  from task,type where task.type_id=type.id and task.id in ( select task_id from form where student_id=1) and task.percent=100 and task.status=0 order by date_time1 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000039s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007223s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007321s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000151s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000500s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000530s ]
+
+[ 2016-12-31T15:41:32+08:00 ] 127.0.0.1 /report/index.php/Home/Form/own
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000244s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: select task.*,type.name  from task,type where task.type_id=type.id and task.id in (select task_id from form where task_id in (select task_id from form group by task_id having count(task_id)=1) and student_id=1) order by task.id desc [ RunTime:0.0009s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007082s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007155s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000161s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000728s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000782s ]
+
+[ 2016-12-31T15:41:33+08:00 ] 127.0.0.1 /report/index.php/Home/Form/form
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000282s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: select task.*,type.name  from task,type where task.type_id=type.id and task.id in (select task_id from form where task_id in (select task_id from form group by task_id having count(task_id)>1) and student_id=1) order by task.id desc [ RunTime:0.0019s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007469s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007512s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000806s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000991s ]
+
+[ 2016-12-31T15:41:34+08:00 ] 127.0.0.1 /report/index.php/Home/Task/month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000186s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: select task.*,type.name  from task,type where task.type_id=type.id and date_format(date_time1,'%Y-%m-%d')<='2016-12-31' and date_format(time_plan,'%Y-%m-%d')>='2016-12-01' and task.id in ( select task_id from form where student_id=1) order by date_time1 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006803s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006858s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000704s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000865s ]
+
+[ 2016-12-31T15:41:34+08:00 ] 127.0.0.1 /report/index.php/Home/Task/list_year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000239s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0003s ]
+SQL: select task.*,type.name  from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<=2016 and date_format(time_plan,'%Y')>=2016 and task.id in ( select task_id from form where student_id=1) order by date_time1 [ RunTime:0.0014s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000060s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000101s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006527s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000684s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000734s ]
+
+[ 2016-12-31T15:41:35+08:00 ] 127.0.0.1 /report/index.php/Home/Task/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0003s ]
+SQL: select task.*,type.name  from task,type where task.type_id=type.id and task.id in ( select task_id from form where student_id=1) order by date_time1 [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000079s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006195s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006232s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000619s ]
+
+[ 2016-12-31T15:41:36+08:00 ] 127.0.0.1 /report/index.php/Home/Task/list_year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: select task.*,type.name  from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<=2016 and date_format(time_plan,'%Y')>=2016 and task.id in ( select task_id from form where student_id=1) order by date_time1 [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000099s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006866s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000099s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2016-12-31T15:41:37+08:00 ] 127.0.0.1 /report/index.php/Home/Task/month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000225s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0011s ]
+SQL: select task.*,type.name  from task,type where task.type_id=type.id and date_format(date_time1,'%Y-%m-%d')<='2016-12-31' and date_format(time_plan,'%Y-%m-%d')>='2016-12-01' and task.id in ( select task_id from form where student_id=1) order by date_time1 [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000065s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006384s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006428s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000091s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000112s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000577s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000603s ]
+
+[ 2016-12-31T15:41:37+08:00 ] 127.0.0.1 /report/index.php/Home/Task/list_year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000230s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000365s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000401s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: select task.*,type.name  from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<=2016 and date_format(time_plan,'%Y')>=2016 and task.id in ( select task_id from form where student_id=1) order by date_time1 [ RunTime:0.0007s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006511s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006549s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000098s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000581s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000629s ]
+
+[ 2016-12-31T15:41:38+08:00 ] 127.0.0.1 /report/index.php/Home/Task/list_year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000312s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000260s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000290s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: select task.*,type.name  from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<=2016 and date_format(time_plan,'%Y')>=2016 and task.id in ( select task_id from form where student_id=1) order by date_time1 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005720s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005755s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000124s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000798s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000833s ]
+
+[ 2016-12-31T15:41:39+08:00 ] 127.0.0.1 /report/index.php/Home/Task/list_year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000227s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: select task.*,type.name  from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<=2016 and date_format(time_plan,'%Y')>=2016 and task.id in ( select task_id from form where student_id=1) order by date_time1 [ RunTime:0.0006s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006310s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006355s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000550s ]
+
+[ 2016-12-31T15:41:39+08:00 ] 127.0.0.1 /report/index.php/Home/Task/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000221s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000223s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: select task.*,type.name  from task,type where task.type_id=type.id and task.id in ( select task_id from form where student_id=1) order by date_time1 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006015s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006054s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000666s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000720s ]
+
+[ 2016-12-31T15:41:40+08:00 ] 127.0.0.1 /report/index.php/Home/Task/list_year
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000284s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: select task.*,type.name  from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<=2016 and date_format(time_plan,'%Y')>=2016 and task.id in ( select task_id from form where student_id=1) order by date_time1 [ RunTime:0.0005s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006613s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000156s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000654s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000750s ]
+
+[ 2016-12-31T15:41:40+08:00 ] 127.0.0.1 /report/index.php/Home/Task/month
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000221s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `type` [ RunTime:0.0004s ]
+SQL: SELECT * FROM `type`  [ RunTime:0.0002s ]
+SQL: select task.*,type.name  from task,type where task.type_id=type.id and date_format(date_time1,'%Y-%m-%d')<='2016-12-31' and date_format(time_plan,'%Y-%m-%d')>='2016-12-01' and task.id in ( select task_id from form where student_id=1) order by date_time1 [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005932s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005965s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000534s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000563s ]
+

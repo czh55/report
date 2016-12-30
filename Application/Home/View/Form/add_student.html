@@ -1,0 +1,77 @@
+<include file="./Application/Home/View/Public/header.html" />
+    
+    <div class="content">
+        
+        <div class="header">
+            
+            <h1 class="page-title">Edit User</h1>
+        </div>
+        
+        <ul class="breadcrumb">
+            <li><a href="form.html">Home</a> <span class="divider">/</span></li>
+            <li><a href="users.html">Users</a> <span class="divider">/</span></li>
+            <li class="active">User</li>
+        </ul>
+
+        <div class="container-fluid">
+            <div class="row-fluid">
+                
+                <div class="well">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#home" data-toggle="tab">Profile</a></li>
+                        <li><a href="#profile" data-toggle="tab">Password</a></li>
+                    </ul>
+                    
+                    <div id="myTabContent" class="tab-content">
+                        <div class="tab-pane active in" id="home">
+                            <form id="tab" method="post" action="__MODULE__/Form/save_student">
+                                <label>学生姓名</label>
+                                <select name="student_id" id="DropDownTimezone" class="input-xlarge">
+                                		<foreach name="list" item="vo" >    
+                                        	 <option value="<{$vo.id}>"><{$vo.name}></option>
+                                        </foreach>                                     
+                         		 </select> 
+                              	 <input type="text" value="<{$task_id}>" class="input-xlarge hidden" name="task_id" >
+                                <div class="btn-toolbar">
+                                    <button class="btn btn-primary" type="submit"><i class="icon-save"></i> Save</button>
+                                    <div class="btn-group">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        
+                        
+                        <div class="tab-pane fade" id="profile">
+                            <form id="tab2">
+                            <label>New Password</label>
+                            <input type="password" class="input-xlarge">
+                            <div>
+                                <button class="btn btn-primary">Update</button>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <footer>
+                    <hr>                
+                    <p class="pull-right">Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+                    <p>&copy; 2012 <a href="#" target="_blank">Portnine</a></p>
+                </footer>
+                    
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="__ROOT__/public/lib/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript">
+        $("[rel=tooltip]").tooltip();
+        $(function() {
+            $('.demo-cancel-click').click(function(){return false;});
+        });
+    </script> 
+  </body>
+</html>
+
+
+

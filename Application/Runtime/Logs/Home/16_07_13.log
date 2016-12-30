@@ -1,0 +1,1388 @@
+[ 2016-07-13T07:57:03+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/combine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000075s ]
+INFO: [ app_init ] --END-- [ RunTime:0.003146s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001668s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002008s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0014s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 232 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 328 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 358 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 361 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002618s ]
+
+[ 2016-07-13T07:59:37+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/combine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000952s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001029s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001348s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0014s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 232 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 328 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 358 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 361 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003960s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004287s ]
+
+[ 2016-07-13T08:00:25+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/combine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000661s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000802s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 232 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 328 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 358 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 361 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001420s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001737s ]
+
+[ 2016-07-13T08:00:38+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/combine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001104s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001134s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001426s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 232 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 328 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 358 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 361 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001511s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002042s ]
+
+[ 2016-07-13T08:02:25+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/combine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001840s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002351s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0014s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 232 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 328 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 358 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 361 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001387s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001689s ]
+
+[ 2016-07-13T08:06:15+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/combine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000971s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000875s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0013s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 232 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 334 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 364 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 367 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001878s ]
+
+[ 2016-07-13T08:08:02+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/combine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000697s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001339s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001538s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0012s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 232 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 334 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 364 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 367 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002629s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002951s ]
+
+[ 2016-07-13T08:08:20+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/combine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001463s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000866s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001052s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 232 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 334 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 364 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 367 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001918s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002582s ]
+
+[ 2016-07-13T08:09:02+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/combine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000699s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001059s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001244s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 232 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 334 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 364 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 367 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001558s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001878s ]
+
+[ 2016-07-13T08:11:36+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/combine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000059s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000935s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0012s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 232 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 334 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 364 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 367 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001525s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001837s ]
+
+[ 2016-07-13T08:11:56+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/combine
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000924s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001180s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001476s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0012s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 232 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 334 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 110 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 364 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 367 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.007574s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008123s ]
+
+[ 2016-07-13T08:15:54+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/target
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000886s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001213s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001513s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0011s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001615s ]
+
+[ 2016-07-13T08:16:30+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/target
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001024s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001644s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002232s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0009s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001862s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002225s ]
+
+[ 2016-07-13T08:18:06+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/target
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001003s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001585s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001831s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0017s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0005s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002649s ]
+
+[ 2016-07-13T08:21:34+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000860s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001174s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001550s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0013s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0004s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0016s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 247 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 349 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 125 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 379 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 382 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001573s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001960s ]
+
+[ 2016-07-13T08:22:17+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001044s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001725s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002278s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0012s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0007s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 247 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 349 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 125 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 379 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 382 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001819s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002143s ]
+
+[ 2016-07-13T08:22:42+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002291s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000874s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001063s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0010s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0004s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 247 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 349 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 125 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 379 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 382 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001779s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002210s ]
+
+[ 2016-07-13T08:25:22+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000889s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000906s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001113s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0012s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 247 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 349 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 125 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 379 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 382 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008248s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008670s ]
+
+[ 2016-07-13T08:25:48+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000927s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000844s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001056s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0008s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0004s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 247 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 349 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 125 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 379 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 382 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000947s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001132s ]
+
+[ 2016-07-13T08:30:59+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001404s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001045s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0009s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 251 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 353 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 129 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 383 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 386 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001629s ]
+
+[ 2016-07-13T08:31:09+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000909s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001193s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001485s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0012s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0005s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 251 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 353 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 129 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 383 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 386 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002396s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002742s ]
+
+[ 2016-07-13T08:31:48+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000674s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000885s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0010s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0004s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 251 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 362 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 129 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 392 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 395 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002571s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003009s ]
+
+[ 2016-07-13T08:31:58+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000753s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001208s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001490s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0010s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0005s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 251 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 362 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 129 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 392 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 395 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001383s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001704s ]
+
+[ 2016-07-13T08:32:52+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002104s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002394s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0010s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 251 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 362 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 129 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 392 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 395 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001781s ]
+
+[ 2016-07-13T08:34:31+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000058s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000874s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001148s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001444s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0012s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0004s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 251 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 362 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 129 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 392 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 395 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002248s ]
+
+[ 2016-07-13T08:35:59+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001253s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001560s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0014s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 251 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 362 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 129 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 392 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 395 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001370s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001694s ]
+
+[ 2016-07-13T08:46:13+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000373s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001687s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003786s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004128s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0010s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 407 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 78 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 285 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 108 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 111 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004190s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004733s ]
+
+[ 2016-07-13T08:47:40+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000936s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000854s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001047s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0010s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0004s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 406 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 78 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 284 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 107 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 110 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007392s ]
+
+[ 2016-07-13T08:49:09+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001522s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001164s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001459s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0015s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0005s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 407 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 78 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 285 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 108 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 111 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.004647s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004985s ]
+
+[ 2016-07-13T08:50:15+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000077s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000977s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001177s ]
+NOTIC: [8] Undefined variable: number D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 48 行.
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\ThinkPHP\Library\Vendor\PHPExcel\PHPExcel\Worksheet.php 第 1691 行.
+ERR: Cell coordinate can not be zero-length string
+
+[ 2016-07-13T08:51:41+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000902s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.003466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.003781s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0007s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0008s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 433 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 104 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 311 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 134 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001543s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001892s ]
+
+[ 2016-07-13T08:52:31+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000056s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000835s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001136s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001410s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0005s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0009s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 433 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 104 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 311 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 134 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001818s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002124s ]
+
+[ 2016-07-13T08:54:19+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000624s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001858s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002482s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0005s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0008s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 433 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 104 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 311 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 134 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 137 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002246s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002591s ]
+
+[ 2016-07-13T09:54:09+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000673s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001209s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001438s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0007s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0008s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 434 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 104 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 312 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 134 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 137 行.
+NOTIC: [8] A non well formed numeric value encountered D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 638 行.
+
+[ 2016-07-13T09:55:51+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000628s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000790s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000958s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0004s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0010s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0004s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 435 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 104 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 313 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 134 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 137 行.
+ERR: Invalid cell coordinate 016
+
+[ 2016-07-13T09:56:15+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000094s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001150s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001492s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0006s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0008s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 435 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 104 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 313 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 134 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 137 行.
+ERR: Invalid cell coordinate 016
+
+[ 2016-07-13T09:57:12+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000057s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000735s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001764s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002127s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0004s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0007s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0006s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 435 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 104 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 313 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 134 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 137 行.
+ERR: Invalid cell coordinate 016
+
+[ 2016-07-13T10:03:45+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000609s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000842s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001015s ]
+
+[ 2016-07-13T10:04:10+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000750s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001108s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001326s ]
+SQL: select * from schedule [ RunTime:0.0011s ]
+
+[ 2016-07-13T10:11:06+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000801s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001608s ]
+SQL: select * from schedule [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001003s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001195s ]
+
+[ 2016-07-13T10:12:18+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000625s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000998s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001210s ]
+SQL: select * from schedule [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001207s ]
+
+[ 2016-07-13T10:12:42+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000603s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000777s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000953s ]
+SQL: select * from schedule [ RunTime:0.0008s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000967s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001187s ]
+
+[ 2016-07-13T10:12:43+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000623s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000989s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001178s ]
+SQL: select * from schedule [ RunTime:0.0012s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000945s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001121s ]
+
+[ 2016-07-13T10:12:47+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000616s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001100s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001344s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0004s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0008s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 452 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 123 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 330 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 153 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 156 行.
+ERR: Invalid cell coordinate 016
+
+[ 2016-07-13T10:13:24+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000639s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000791s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0005s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0007s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 452 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 123 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 330 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 153 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 156 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001426s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001755s ]
+
+[ 2016-07-13T10:13:40+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000064s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001027s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000978s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001168s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0005s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0008s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0004s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 452 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 123 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 330 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 153 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 156 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005132s ]
+INFO: [ app_end ] --END-- [ RunTime:0.005834s ]
+
+[ 2016-07-13T10:14:38+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001199s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001484s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0004s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0007s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 453 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 123 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 331 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 153 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 156 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002109s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002446s ]
+
+[ 2016-07-13T10:24:40+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000761s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000895s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001197s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0006s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0007s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 443 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 113 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 321 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 143 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 146 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002205s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002545s ]
+
+[ 2016-07-13T10:24:44+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000641s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001054s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001309s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001688s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002017s ]
+
+[ 2016-07-13T10:27:59+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001267s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.002325s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002609s ]
+
+[ 2016-07-13T10:28:06+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000066s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001103s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001424s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001754s ]
+
+[ 2016-07-13T10:28:19+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000685s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001741s ]
+
+[ 2016-07-13T10:28:28+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000039s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000632s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001434s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001846s ]
+
+[ 2016-07-13T10:28:36+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000069s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001293s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002329s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001941s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004022s ]
+
+[ 2016-07-13T13:12:25+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000065s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001052s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001364s ]
+
+[ 2016-07-13T13:13:03+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000814s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000989s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0008s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0012s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0005s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0013s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 444 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 114 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 322 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 144 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 147 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001098s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001885s ]
+
+[ 2016-07-13T13:17:33+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000797s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001023s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001259s ]
+
+[ 2016-07-13T13:18:23+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000659s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000849s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001048s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0007s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0014s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0008s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 448 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 114 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 326 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 144 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 147 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004081s ]
+
+[ 2016-07-13T13:19:57+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001216s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001739s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0005s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0012s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0006s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 448 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 114 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0012s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 326 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 144 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 147 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.008432s ]
+INFO: [ app_end ] --END-- [ RunTime:0.010461s ]
+
+[ 2016-07-13T13:21:58+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000161s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002896s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0009s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0008s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0004s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 448 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 114 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0011s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 326 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 144 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 147 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003264s ]
+INFO: [ app_end ] --END-- [ RunTime:0.003764s ]
+
+[ 2016-07-13T13:22:30+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000784s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000905s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001114s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0004s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0009s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0005s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 448 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 114 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 326 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 144 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 147 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.003265s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006475s ]
+
+[ 2016-07-13T13:23:30+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000593s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001048s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001245s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0004s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0010s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0005s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 449 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 114 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 327 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 144 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 147 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005975s ]
+INFO: [ app_end ] --END-- [ RunTime:0.006301s ]
+
+[ 2016-07-13T13:23:46+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000101s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001824s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002173s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0006s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0009s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0006s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 449 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 114 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 327 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 144 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 147 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002042s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002393s ]
+
+[ 2016-07-13T13:24:24+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000068s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001292s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001395s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001705s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0056s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0007s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0004s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 449 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 114 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 327 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 144 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 147 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001924s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002527s ]
+
+[ 2016-07-13T13:25:45+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001724s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002087s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0007s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0014s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0005s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0013s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 449 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 114 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 327 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 144 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 147 行.
+ERR: Invalid cell coordinate 416
+
+[ 2016-07-13T13:26:02+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000853s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000812s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000988s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0005s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0011s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0012s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 449 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 114 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 327 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 144 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 147 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.018217s ]
+INFO: [ app_end ] --END-- [ RunTime:0.018559s ]
+
+[ 2016-07-13T13:27:23+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000038s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000785s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000859s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001042s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0005s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0008s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0005s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 450 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 114 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 144 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 147 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001474s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001918s ]
+
+[ 2016-07-13T13:27:51+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000663s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001721s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001984s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0006s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0007s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 450 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 114 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 144 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 147 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.006904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.007251s ]
+
+[ 2016-07-13T13:28:16+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000067s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001041s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001335s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001594s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0004s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0007s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 450 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 114 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 328 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 144 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 147 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001915s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002249s ]
+
+[ 2016-07-13T13:29:28+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000104s ]
+INFO: [ app_init ] --END-- [ RunTime:0.002130s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000872s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001053s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001034s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001391s ]
+
+[ 2016-07-13T13:29:58+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000060s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000993s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001645s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000890s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001069s ]
+
+[ 2016-07-13T13:29:59+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000063s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001056s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001460s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001784s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001163s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001412s ]
+
+[ 2016-07-13T13:30:10+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000062s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001033s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001786s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000904s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001097s ]
+
+[ 2016-07-13T13:31:33+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000100s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001550s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001592s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001959s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001719s ]
+INFO: [ app_end ] --END-- [ RunTime:0.004258s ]
+
+[ 2016-07-13T13:32:03+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/test
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000036s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001058s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001682s ]
+
+[ 2016-07-13T13:32:15+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000597s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001854s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0005s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0008s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0012s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 446 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 110 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 324 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 143 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.021557s ]
+INFO: [ app_end ] --END-- [ RunTime:0.023913s ]
+
+[ 2016-07-13T13:35:30+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000061s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000994s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001019s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001313s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0006s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0008s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 448 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 110 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 326 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 143 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001766s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002075s ]
+
+[ 2016-07-13T13:36:10+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000037s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000857s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001093s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0005s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0012s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0004s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 446 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 110 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 324 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 143 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.005032s ]
+INFO: [ app_end ] --END-- [ RunTime:0.008448s ]
+
+[ 2016-07-13T13:37:27+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000040s ]
+INFO: [ app_init ] --END-- [ RunTime:0.001051s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000835s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001019s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0007s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0013s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0004s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0008s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 444 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 110 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0009s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 322 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 143 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002172s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002691s ]
+
+[ 2016-07-13T13:37:39+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000615s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001204s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001457s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0005s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0007s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 443 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 110 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 321 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 143 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002203s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002570s ]
+
+[ 2016-07-13T15:20:56+08:00 ] 127.0.0.1 /report/index.php/Home/Excel/all
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000035s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000606s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000792s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000959s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0005s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0008s ]
+SQL: select count(*) as num from task where date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')<='2016' [ RunTime:0.0003s ]
+SQL: select task.*,type.content as type_content from task,type where task.type_id=type.id and date_format(date_time1,'%Y')<='2016' and date_format(date_time2,'%Y')>='2016' order by id ; [ RunTime:0.0007s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 443 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 110 行.
+SQL: select * from schedule where date_format(commit_time,'%Y')='2016'order by task_id,commit_time [ RunTime:0.0010s ]
+NOTIC: [8] Undefined offset: 0 D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 321 行.
+NOTIC: [2] Invalid argument supplied for foreach() D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 140 行.
+NOTIC: [8] Undefined variable: last_task_id D:\wamp\www\report\Application\Home\Controller\ExcelController.class.php 第 143 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.002071s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002412s ]
+

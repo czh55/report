@@ -1,0 +1,135 @@
+<include file="./Application/Home/View/Public/header.html" />
+
+    
+    <div class="content">
+        
+        <div class="header">
+            
+            <h1 class="page-title">Edit User</h1>
+        </div>
+        
+        <ul class="breadcrumb">
+            <li><a href="index.html">Home</a> <span class="divider">/</span></li>
+            <li><a href="users.html">Users</a> <span class="divider">/</span></li>
+            <li class="active">User</li>
+        </ul>
+
+        <div class="container-fluid">
+            <div class="row-fluid">
+                
+                <div class="well">
+                    <ul class="nav nav-tabs">
+                        <li class="active"><a href="#home" data-toggle="tab">Profile</a></li>
+                        <li><a href="#profile" data-toggle="tab">Password</a></li>
+                    </ul>
+                    
+                    <div id="myTabContent" class="tab-content">
+                        <div class="tab-pane active in" id="home">
+                            <form id="tab" method="post" action="__MODULE__/Task/edit_task">
+                            	
+                                <label>任务类型</label>
+                                <input type="text" value="<{$name}>" class="input-xlarge" name="type">
+                                <label>任务计划截止时间</label>
+                                <input  class="laydate-icon input-xlarge" id="start"  type="text" value="<{$time_plan}>"  name="time_plan">
+                                <label>任务内容</label>
+                                <input type="text" value="<{$content}>" class="input-xlarge" name="content">
+                                <label>任务说明</label>
+                                <input type="text" value="<{$instruction}>" class="input-xlarge" name="instruction">
+                                <input type="text" value="<{$id}>" class="input-xlarge hidden" name="id" >
+                                <div class="btn-toolbar">
+                                    <button class="btn btn-primary" type="submit"><i class="icon-save"></i> Save</button>
+                                    <a href="#myModal" data-toggle="modal" class="btn">Delete</a>
+                                    <div class="btn-group">
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        
+                        
+                        <div class="tab-pane fade" id="profile">
+                            <form id="tab2">
+                            <label>New Password</label>
+                            <input type="password" class="input-xlarge">
+                            <div>
+                                <button class="btn btn-primary">Update</button>
+                            </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+       
+                <div class="modal small hide fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-header">
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
+                        <h3 id="myModalLabel">Delete Confirmation</h3>
+                    </div>
+                    <div class="modal-body">                   
+                    	<p class="error-text"><i class="icon-warning-sign modal-icon"></i>Are you sure you want to delete the user?</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button class="btn" data-dismiss="modal" aria-hidden="true">Cancel</button>
+                        <button class="btn btn-danger" data-dismiss="modal">Delete</button>
+                    </div>
+                </div>
+       
+                <footer>
+                    <hr>                
+                    <p class="pull-right">Collect from <a href="http://www.cssmoban.com/" title="网页模板" target="_blank">网页模板</a></p>
+                    <p>&copy; 2012 <a href="#" target="_blank">Portnine</a></p>
+                </footer>
+                    
+            </div>
+        </div>
+    </div>
+    
+    
+    <script src="__ROOT__/public/lib/bootstrap/js/bootstrap.js"></script>
+    <script type="text/javascript">
+        $("[rel=tooltip]").tooltip();
+        $(function() {
+            $('.demo-cancel-click').click(function(){return false;});
+        });
+
+    </script> 
+    
+    <script type="text/javascript">
+	!function(){
+		laydate.skin('molv');//切换皮肤，请查看skins下面皮肤库
+		laydate({elem: '#demo'});//绑定元素
+	}();
+	
+	//日期范围限制
+	var start = {
+		elem: '#start',
+		format: 'YYYY-MM-DD',
+		min: laydate.now(), //设定最小日期为当前日期
+		max: '2099-06-16', //最大日期
+		istime: true,
+		istoday: false,
+		choose: function(datas){
+			 end.min = datas; //开始日选好后，重置结束日的最小日期
+			 end.start = datas //将结束日的初始值设定为开始日
+		}
+	};
+	
+	var end = {
+		elem: '#end',
+		format: 'YYYY-MM-DD',
+		min: laydate.now(),
+		max: '2099-06-16',
+		istime: true,
+		istoday: false,
+		choose: function(datas){
+			start.max = datas; //结束日选好后，充值开始日的最大日期
+		}
+	};
+	laydate(start);
+	laydate(end);
+	
+	</script>
+
+  </body>
+</html>
+
+
+
